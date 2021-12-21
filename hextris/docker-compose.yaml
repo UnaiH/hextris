@@ -1,0 +1,7 @@
+version: '3'
+services:
+        hextris:
+                container_name: hextris
+                build:
+                        context: .
+                        dockerfile: Dockerfile
